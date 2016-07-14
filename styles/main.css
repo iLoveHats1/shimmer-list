@@ -1,0 +1,56 @@
+body {
+  font-family: 'Open Sans'; /* sets our font to the "Open Sans" typeface */
+  color: #333;
+  min-height: 100%; 
+  text-align: center;
+
+ }
+
+
+.works {
+  color:white;
+  border-width: 0.76px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  background-color: rgb(51, 51, 102);
+  position: relative;
+  overflow: auto;
+  text-align: center;
+  
+}
+
+.icon-heart {
+  text-align: center;
+  float: left;
+  width: 20%;
+  padding:3% 3% 7% 5%;
+
+}
+
+.icon-trophy {
+  text-align: center;
+  float: left;
+  width: 20%;
+  padding:3% 3% 7% 3%;
+}
+
+.icon-list{
+  text-align: center;
+  float: left;
+  width: 20%;
+  padding:3% 3% 7% 3%;
+}
+
+.icon-users{
+  text-align: center;
+  float: left;
+  width: 20%;
+  padding:5% 5% 7% 3%;
+}
+
+.signup {
+  font-family: 'Oswald';
+  font-weight: bold;
+  color: #333;
+}
+
