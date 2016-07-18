@@ -6,12 +6,38 @@ body {
 
  }
 
+ .title{
+  padding: 4% 0 1% 0;
+ }
+
+ .top-logo{
+  float: left;
+  padding: 1em;
+
+ }
+
+.categories{
+  display:block;
+  clear: both;
+  padding-top: 4em;
+  text-align: center;
+}
+
+.light{
+  font-weight: 300;
+}
+
+.choices{
+  display: inline-block;
+
+  padding:1em 2em 2em 2em;
+  cursor: pointer;
+}
+
 
 .works {
   color:white;
-  border-width: 0.76px;
-  border-color: rgb(0, 0, 0);
-  border-style: solid;
+  display:block;
   background-color: rgb(51, 51, 102);
   position: relative;
   overflow: auto;
@@ -21,14 +47,16 @@ body {
 
 .icon-heart {
   text-align: center;
+  
   float: left;
   width: 20%;
-  padding:3% 3% 7% 5%;
+  padding:3% 3% 7% 3%;
 
 }
 
 .icon-trophy {
   text-align: center;
+  
   float: left;
   width: 20%;
   padding:3% 3% 7% 3%;
@@ -36,6 +64,7 @@ body {
 
 .icon-list{
   text-align: center;
+  
   float: left;
   width: 20%;
   padding:3% 3% 7% 3%;
@@ -43,14 +72,76 @@ body {
 
 .icon-users{
   text-align: center;
+  
   float: left;
   width: 20%;
   padding:5% 5% 7% 3%;
 }
 
-.signup {
+.top-signup {
   font-family: 'Oswald';
   font-weight: bold;
-  color: #333;
+  color: #336666;
+  display: inline-block;
+  padding:.5em 1em;
+  border: .25em solid #336666;
+  border-radius: .5em;
+  float: right;
+  margin-right: 1em;
+}
+.mid-signup {
+  font-family: 'Oswald';
+  font-weight: bold;
+  color: #336666;
+  display: inline-block;
+  padding:.5em 5em;
+  border: .25em solid #336666;
+  border-radius: .5em;
+  margin-right: 1em;
+}
+.left-p{
+  text-align: left;
+  float: left;
+  display: block;
+  width:30%;
+  padding-left: 2em;
 }
 
+.right-p{
+  float: right;
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  padding-right: 1.5em;
+  
+}
+
+.testimonial{
+  display:inline-block;
+
+  width:30%;
+  text-align: center;
+}
+
+
+
+.links{
+  font-weight: 200;
+  font-size: 1em;
+  
+}
+
+.copy{
+  text-align: left;
+ 
+  font-size: .75em;
+  float: left;
+  clear: both;
+  padding: 1em;
+}
+
+.logo-bottom{
+  float:right;
+  padding: 0 1em 0 0;
+  clear: both;
+}
