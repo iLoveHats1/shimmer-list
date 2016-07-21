@@ -1,9 +1,17 @@
+
+
 body {
-  font-family: 'Open Sans'; /* sets our font to the "Open Sans" typeface */
+  font-family: 'Open Sans'; 
   color: #333;
   min-height: 100%; 
   text-align: center;
 
+ }
+
+.header{
+  margin: 1em;
+  
+  clear: both;
  }
 
  .title{
@@ -12,16 +20,24 @@ body {
 
  .top-logo{
   float: left;
-  padding: 1em;
+  margin-left: -15em;
+  
 
  }
 
+
 .categories{
-  display:block;
-  clear: both;
-  padding-top: 4em;
   text-align: center;
+  margin: 6em -2em;
 }
+
+.cat-button{
+  margin: 1.5em 1em;
+  border: 8px solid #663366;
+  border-radius: 16px;
+  box-shadow: 3px 3px 3px 3px #333;
+}
+
 
 .light{
   font-weight: 300;
@@ -29,8 +45,7 @@ body {
 
 .choices{
   display: inline-block;
-
-  padding:1em 2em 2em 2em;
+  
   cursor: pointer;
 }
 
@@ -80,6 +95,7 @@ body {
 
 .top-signup {
   font-family: 'Oswald';
+  font-size: 1.25em;
   font-weight: bold;
   color: #336666;
   display: inline-block;
@@ -87,17 +103,21 @@ body {
   border: .25em solid #336666;
   border-radius: .5em;
   float: right;
-  margin-right: 1em;
+  margin-right: -12em;
+  
 }
 .mid-signup {
   font-family: 'Oswald';
   font-weight: bold;
   color: #336666;
+  background: white;
+  text-align: center;
   display: inline-block;
   padding:.5em 5em;
   border: .25em solid #336666;
   border-radius: .5em;
   margin-right: 1em;
+  clear: both;
 }
 .left-p{
   text-align: left;
@@ -123,12 +143,22 @@ body {
   text-align: center;
 }
 
+.person{
+  padding-bottom: 5em;
+}
+
 
 
 .links{
-  font-weight: 200;
-  font-size: 1em;
-  
+  text-align: left;
+  font-weight: 400;
+  font-size: .85em;
+  display: inline-block;
+}
+
+.each{
+  padding: 0 1.5em 0 1.5em;
+  display: inline-block;
 }
 
 .copy{
@@ -145,3 +175,4 @@ body {
   padding: 0 1em 0 0;
   clear: both;
 }
+

@@ -1,49 +1,77 @@
-<! DOCTYPE html>
-<html>
-  <head>  
-    <title>Shimmer-list</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+<!DOCTYPE html>
+<html lang="en">
 
-    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
+<head>  
+
+<!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Shimmer-list</title>
+  <meta name="referral page to beauty services" content="">
+  <meta name="Stacey K. Flatt" content="">
+
+<!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     
-  </head>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+
+<!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles/css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+    
+</head>
 
   
-    <header>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <h4>Basic Page</h4>
+        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      </div>
+    </div>
+  </div>
+  ––––––––– -->
+<body>
+ 
+
+  <div class="container">
+
+    <div class= "row header">
       <h4 class= "top-signup">Sign Up!</h4>
       <a href="index.html" class ="top-logo">
-        <img src="assets/shimmer-logo.png" alt = "Shimmer-list logo">
+      <img src="assets/shimmer-logo.png" alt = "Shimmer-list logo">
       </a>
-    </header>
+    </div>
 
-    
-  <body>
-    <section class= "categories"> 
+
+
+  
+
+    <div class= "row categories"> 
+
       <p>Shimmer-list brings you the best Hair Stylists, Tattoo Artists, Massage Therapists, <br>and many more personal service providers San Antonio has to offer.</p>
       
-      <h1 class="title">Search Popular Categories</h1>
-
-      <div class="choices">
-        <img src="assets/spa-button.png" alt= "Spa Services">
-      </div>
-      <div class="choices">
-        <img src="assets/beauty.png" alt= "Style & Beauty">
-      </div>
-      <div class="choices">
-        <img src="assets/tattoo.png" alt= "Body Art">
-      </div>
-      <div class="choices">
-        <img src="assets/fitness.png" alt= "Health & Fitness">
+      <h3 class="title">Search Popular Categories</h3>
         
-      </div>
-
+          <img src="assets/massage-crop.png" alt= "Spa Services" class="cat-button">
+          <img src="assets/beauty-crop.png" alt= "Style & Beauty" class="cat-button">
+          <img src="assets/tattoo-crop.png" alt= "Body Art" class="cat-button">
+          <img src="assets/fitness-crop.png" alt= "Health & Fitness" class="cat-button">
       
-    </section>
+        
+    </div>
 
-    <section class="works">
-      <h1 class="title">How it works...</h1>
+    <section class="container works">
+      <h3 class="title">How it works...</h3>
       <p class="light">Shimmer-list is built on the idea that it is hard to find the right personal service providers<br> and that everyone can appreciate referrals to such services.</p>
       
 
@@ -68,19 +96,20 @@
         <img src="assets/group.png" alt= "Users grow">
         <h3>Users grow.</h3>
       </div>
+      <h4 class= "mid-signup">Sign Up!</h4>
       
 
     </section>
 
-    <h4 class= "mid-signup">Sign Up!</h4>
+    
 
     <section> <!--testimonial-->
-      <h1 class="title">Who uses Shimmer-list?</h1>
+      <h3 class="title">Who uses Shimmer-list?</h3>
       <p class="left-p">Shimmer-list is being used by all types of people. It's perfect for new to the city people, those just looking for a new haircut, tattoo, massage, etc., for those wanting to share their favorite providers with friends and family, and for personal services businesses to get found by new customers.</p>
 
       <div class="testimonial"> <!--testimonial person and bubble-->
         <img src="assets/shop-owner.png" alt= "Business Owner"> 
-        <p>Toby M.<br>Bad-Azz Tattoo Shop</p>
+        <p class="person">Toby M.<br>Bad-Azz Tattoo Shop</p>
 
       </div>
       <p class="right-p">Shimmer-list helped my tattoo shop get found. Everyday, I have new customers saying they found me on Shimmer-list.</p>
@@ -90,20 +119,22 @@
     <footer>
       
 
-      <table class="links">
-          <tr>
-            <td>Search</td>
-            <td>About</td>
-          </tr>
-          <tr>
-            <td>How it works</td>
-            <td>Contact</td>
-          <tr>
-            <td>Get your business on Shimmer-list</td>
-            <td>Help</td>
-          </tr>
+      <div class="links">
+        <div class="rows">
+          <p class="each">Search</p>
+          <p class="each">About</p>
+        </div>
+        <div class="rows">
+          <p class="each">How it works</p>
+          <p class="each">Contact</p>
+        </div>
+        <div class="rows">
+          <p class="each">Get your business on Shimmer-list</p>
+          <p class="each">Help</p>
+        </div>
         
-      </table>
+      </div>
+  </div>
       <a href="index.html" class ="logo-bottom">
         <img src="assets/shimmer-logo.png" alt = "Shimmer-list logo"> </a>
     <p class="copy">&copy; 2016 Shimmer-list. All rights reserved.
@@ -113,7 +144,8 @@
     </footer>
     
     
-  </body>
+    </body>
+  </div>
 
 
 </html>
