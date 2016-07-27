@@ -1,11 +1,11 @@
 
 
 body {
-  font-family: 'Open Sans'; 
+  font-family: 'Open Sans';
   color: #333;
-  min-height: 100%; 
+  min-height: 100%;
   text-align: center;
-  margin: 1.5rem;
+  /*margin: 1.5rem;*/
  }
 
 .header{
@@ -19,7 +19,7 @@ body {
 
  .top-logo{
   float: left;
-  
+
  }
 
 .intro{
@@ -33,6 +33,10 @@ body {
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  text-decoration: none;
+}
+
 .button,
 button,
 input[type="submit"],
@@ -98,7 +102,7 @@ input[type="button"].button-primary:focus {
 
 .module {
   background-attachment: fixed;
-  
+
   position: relative;
   overflow: hidden;
 }
@@ -108,7 +112,7 @@ input[type="button"].button-primary:focus {
   left: 0;
   width: 100%;
   padding:7px;
-  
+
   background-attachment: fixed;
   overflow: hidden;
   border-radius: 0 0 16px 16px;
@@ -165,7 +169,7 @@ input[type="button"].button-primary:focus {
 
 .choices{
   display: inline-block;
-  
+
   cursor: pointer;
 }
 
@@ -177,7 +181,7 @@ input[type="button"].button-primary:focus {
   position: relative;
   overflow: auto;
   text-align: center;
-  
+
 }
 
 .icon-heart {
@@ -216,7 +220,7 @@ input[type="button"].button-primary:focus {
   border: .25em solid #336666;
   border-radius: .5em;
   float: right;
-  
+
 }
 .mid-signup {
   font-family: 'Oswald';
@@ -245,7 +249,7 @@ input[type="button"].button-primary:focus {
   line-height: 3rem;
   font-weight: 200;
   font-style: italic;
-  
+
 }
 
 .person{
@@ -313,7 +317,7 @@ input[type="button"].button-primary:focus {
   background: transparent;
   /* reduce the damage in FF3.0 */
   display:block;
-  border-bottom-right-radius: 60px 60px; 
+  border-bottom-right-radius: 60px 60px;
 }
 
 /* creates the smaller triangle */
@@ -355,3 +359,140 @@ input[type="button"].button-primary:focus {
   clear: both;
 }
 
+
+
+
+/* Kurt's Suggested Layout */
+
+
+/********** Table of Content **********/
+
+  /* Basic Colors
+      Black:  #333333;
+      Green:  #336666;
+      Purple: #663366;
+
+      Basic Type
+      Main - font-family: 'Open Sans' Helvetica, Sans-serif;
+      Alt  - font-family: 'Oswald', Helvetica, Sans-serif;
+
+  Sections
+    • General
+    • Typography
+    • Page
+    • Buttons
+    • Card
+    • Modules
+      • Navigation
+
+***************************************/
+
+
+/* General Styles */
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+
+/* Typography Styles */
+  /*Current type styles are being inherited from Skeleton*/
+
+.text-inverse {
+  color: #FFFFFF;
+}
+
+
+/* Page Styles */
+.page-section {
+  padding: 20px 0;
+  position: relative;
+}
+
+.page-section.page-section-purple-bg {
+  background-color: #663366;
+}
+
+
+
+/* Button Styles */
+  /*I haven't written any button styles*/
+
+
+/* Card Styles */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  position: relative;
+}
+
+.card-purple {
+  border: 8px solid #663366;
+}
+
+.card-green {
+  border: 8px solid #336666;
+}
+
+.card-link {
+  display: block;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-label {
+  display: block;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%;
+}
+
+.card-label-title {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+
+
+/* How It Works Section Specific Styles */
+
+.how-it-works-list.arrows {
+  position: relative;
+  top: 50px;
+}
+
+.arrow-1,
+.arrow-2,
+.arrow-3 {
+  position: absolute;
+  width: 50px;
+}
+
+.arrow-1 {
+  left: 22%;
+}
+
+.arrow-2 {
+  left: 47%;
+}
+
+.arrow-3 {
+  left: 73%;
+}
