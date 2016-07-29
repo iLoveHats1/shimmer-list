@@ -1,38 +1,155 @@
+/*************Table of Contents**************/
+
+  /* Basic Colors
+      black: #333;
+      green: #336666;
+      purple: #663366;
+
+     Basic Type
+     Main - font-family:'Open Sans','Helvetica, Sans-serif;
+     Alt  - font-family: 'Oswald','Helvetica, Sans-serif;
+  
+  Sections
+    - General
+    - Typography
+    - Page
+    - Buttons
+    - Card
+    - Modules
+    - Navigation
 
 
+********************************************************************/
+
+/* General Styles */
+
+html,
 body {
   font-family: 'Open Sans'; 
   color: #333;
-  min-height: 100%; 
+  min-height: 100%;
   text-align: center;
-  margin: 1.5rem;
- }
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 
 .header{
   margin: 1.5rem;
 }
 
- .title{
-  padding: 4% 0 1% 0;
-  font-weight: 600;
- }
-
- .top-logo{
-  float: left;
-  
- }
-
-.intro{
-  top-margin: 10rem;
-  font-size: 1.75rem;
- }
-
-.first{
-  margin: 0 0 10rem 0;
+a {
+  text-decoration: none;
 }
 
-/* Buttons
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+/* Typography styles */
+
+.text-inverse {
+  color: #fff;
+}
+
+.light{
+  font-weight: 300;
+}
+
+.title{
+  padding: 4% 0 1% 0;
+  font-weight: 600;
+}
+
+.intro{
+  font-size: 1.75rem;
+}
+
+
+/* Page Styles */
+
+.page-section {
+  padding: 20px 0;
+  position: relative;
+}
+
+.page-section.page-section-purple-bg {
+  background-color: #333366;
+}
+
+/* Card Styles for Categories */
+
+.card {
+  border-radius: 18px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  position: relative;
+}
+
+.card-purple {
+  border: 6px solid #663366;
+}
+
+.card-green {
+  border: 6px solid #336666;
+}
+
+.card-link {
+  display: block;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-label {
+  display: block;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  width: 100%
+}
+
+.card-label-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 0;
+  letter-spacing: 0.15rem;
+}
+
+/* Testimonial Card Style */
+
+.testimonial-card {
+  position:relative;
+  padding: 30px;
+  float: left;
+  text-align: center;
+  background:#663366; /* default background for browsers without gradient support */
+  /* css3 */
+  background:-webkit-gradient(linear, 0 0, 0 100%, from(#c26ec2), to(#663366));
+  background:-moz-linear-gradient(#c26ec2, #663366);
+  background:-o-linear-gradient(#c26ec2, #663366);
+  background:linear-gradient(#c26ec2, #663366);
+  /* Using longhand to avoid inconsistencies between Safari 4 and Chrome 4 */
+  -webkit-border-top-left-radius:240px 140px;
+  -webkit-border-top-right-radius:240px 140px;
+  -webkit-border-bottom-right-radius:240px 140px;
+  -webkit-border-bottom-left-radius:240px 140px;
+  -moz-border-radius:240px / 140px;
+  border-radius: 18px;
+}
+
+
+
+
+/******* Button Styles****/
 .button,
 button,
 input[type="submit"],
@@ -40,20 +157,20 @@ input[type="reset"],
 input[type="button"] {
   font-family: "Oswald";
   display: inline-block;
-  height: 38px;
-  padding: 2rem 5rem 5rem 5rem;
+  height: 24px;
+  padding: 1rem 6rem 4rem 6rem;
   color: #336666;
   text-align: center;
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
   line-height: 3rem;
   letter-spacing: .1rem;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: white;
-  border-radius: 8px;
-  border: 4px solid #336666;
+  border-radius: 16px;
+  border: 3px solid #336666;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -71,120 +188,59 @@ input[type="button"]:focus {
   background-color: #336666;
  }
 
-.button.button-primary.signup,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
-  color: #336666;
-  background-color: #fff;
-  border-color: #336666; }
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-  color: #fff;
-  background-color: #336666;
-  border-color: #fff; }
+/* sign up buttons */
 
+.mid-signup {
+  margin-bottom: 3rem;
+}
 
+.top-signup {
+  margin: 1rem 0;
+  padding: 1rem 2rem 4rem 2rem;
+  float: right;
+}
 
+/* How it Works Section specific Styles */
 
-.module {
-  background-attachment: fixed;
-  
+.how-it-works-list.arrows {
   position: relative;
-  overflow: hidden;
+  top: 50px;
 }
-.module > .tint {
+
+.arrow-1,
+.arrow-2,
+.arrow-3 {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding:7px;
-  
-  background-attachment: fixed;
-  overflow: hidden;
-  border-radius: 0 0 16px 16px;
-}
-.module > .tint::before {
-  content: "";
-  position: absolute;
-  top: -20px;
-  left: 0;
-  width: 200%;
-  height: 200%;
-  background: rgba(51,51,51,0.35);
-  background-attachment: fixed;
-  -webkit-filter: blur(4px);
-  filter: blur(4px);
-}
-.module > .tint::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(51,51,51,.35)
-}
-.module > .tint > h5 {
-  margin: 0;
-  color: white;
-  position: relative;
-  z-index: 1;
+  width: 50px;
 }
 
-* {
-  box-sizing: border-box;
+.arrow-1 {
+  left: 22%;
 }
 
-
-.categories{
-  text-align: center;
-  margin-top:10rem;
-  clear: both;
+.arrow-2 {
+  left: 47%;
 }
 
-.cat-button{
-  border: 2px solid #663366;
-  border-radius: 16px;
-  box-shadow: 1px 2px 2px 2px #333;
+.arrow-3 {
+  left: 73%;
 }
 
-
-.light{
-  font-weight: 300;
+.how-it-works-label {
+  font-size: 2rem;
+  padding: 2rem;
+  margin: 2rem;
 }
 
-.choices{
-  display: inline-block;
-  
-  cursor: pointer;
+img.i-equal{
+  margin-bottom: 24px;
 }
 
-
-.works {
-  color:white;
-  display:block;
-  background-color: rgb(51, 51, 102);
-  position: relative;
-  overflow: auto;
-  text-align: center;
-  
-}
-
+/** Icon Images for works section ***/
 .icon-heart {
   text-align: center;
   width: 20%;
   padding:3% 3% 7% 3%;
-
 }
 
 .icon-trophy {
@@ -206,65 +262,69 @@ input[type="button"].button-primary:focus {
   padding:5% 3% 7% 3%;
 }
 
-.top-signup {
-  font-family: 'Oswald';
-  font-size: 1.25em;
-  font-weight: bold;
-  color: #336666;
-  display: inline-block;
-  padding:.5em 1em;
-  border: .25em solid #336666;
-  border-radius: .5em;
-  float: right;
-  
-}
-.mid-signup {
-  font-family: 'Oswald';
-  font-weight: bold;
-  color: #336666;
-  background: white;
-  text-align: center;
-  display: inline-block;
-  border: .25em solid #336666;
-  border-radius: 16px;
-  margin-bottom: 5rem;
+/****** Logo Styles  ********/
+
+.top-logo{
+  float: left; 
+ }
+
+.logo-bottom{
+  float:right;
+  margin: 0 -20% -1rem 0;
   clear: both;
 }
-.left-p{
-  text-align: center;
-  display: block;
-  margin-right: 6rem;
-  margin-left: 6rem;
+
+/** Categories Section specific styles **/
+
+.categories{
+  margin-top:10rem;
+  clear: both;
 }
 
-.right-p{
-  text-align: center;
-  display: inline-block;
-  margin: 1rem;
-  border-color: white;
-  line-height: 3rem;
-  font-weight: 200;
-  font-style: italic;
-  
-}
+
+
+/***Testimonial section css ***/
+    /* image and border */
 
 .person{
-  margin-top: 2rem;
-  margin-left: 10rem;
-}
-.testimonial{
-  display:inline-block;
-  text-align: center;
+  border: 6px solid #663366;
+  border-radius:50%;
+  box-shadow: 0 0 10px;
+  position: relative;
+  overflow:hidden;
+  max-width: 140px;
+  margin-bottom: 1.5rem;
 }
 
-.links{
-  text-align: center;
-  font-weight: 400;
-  font-size: .85em;
+.name{
+  font-weight:700;
+  display: block;
+  font-size: 1rem;
 }
+
+.shop{
+  font-weight: 300;
+  display: block;
+  font-size: 1rem;
+}
+
+.quote{
+  font-weight: 300;
+  font-style: italic;
+  line-height: 2.5rem;
+}
+
+
+/** Footer Styles **/
+
+/*** Bottom Nav ****/
 
 .text-links{
   margin-bottom: 0;
+}
+
+.nav-item{
+  color: #333366;
 }
 
 .each{
@@ -273,85 +333,24 @@ input[type="button"].button-primary:focus {
   display: inline-block;
 }
 
-
-.speech-bubble {
-  position:relative;
-  padding: 50px;
-  margin-right: 10rem;
-  float: right;
+.links{
   text-align: center;
-  color:#fff;
-  background:#663366; /* default background for browsers without gradient support */
-  /* css3 */
-  background:-webkit-gradient(linear, 0 0, 0 100%, from(#c26ec2), to(#663366));
-  background:-moz-linear-gradient(#c26ec2, #663366);
-  background:-o-linear-gradient(#c26ec2, #663366);
-  background:linear-gradient(#c26ec2, #663366);
-  /* Using longhand to avoid inconsistencies between Safari 4 and Chrome 4 */
-  -webkit-border-top-left-radius:240px 140px;
-  -webkit-border-top-right-radius:240px 140px;
-  -webkit-border-bottom-right-radius:240px 140px;
-  -webkit-border-bottom-left-radius:240px 140px;
-  -moz-border-radius:240px / 140px;
-  border-radius:240px / 140px;
+  font-weight: 400;
+  margin-bottom: 4rem;
+  font-size: .85em;
+  color: #333366;
 }
 
+/** Copyright style **/
 
-/* creates the larger triangle */
-.speech-bubble:before {
-  content:"";
-  position:absolute;
-  z-index: 2;
-  bottom:-38px;
-  right: 45%;
-  width: 60px;
-  height:30px;
-  border-width:0 12px 10px 0;
-  border-style:solid;
-  border-color: #663366;
-  margin-right: -10px
-  background: transparent;
-  /* reduce the damage in FF3.0 */
-  display:block;
-  border-bottom-right-radius: 60px 60px; 
-}
-
-/* creates the smaller triangle */
-.speech-bubble:after {
-  content:"";
-  position: absolute;
-  z-index: 2;
-  display: block;
-  position:absolute;
-  bottom:-38px;
-  right: 52%;
-  border-width:0 12px 10px 0;
-  border-style:solid;
-  border-color: #663366;
-  width: 20px;
-  height: 31px;
-  background: transparent;
-  border-bottom-right-radius: 40px 50px;
-}
-
-.name{
-  float: left;
-  margin: -2% 1% 10% -5%;
-  text-align: center;
-  font-style: italic;
-}
 .copy{
   text-align: left;
-  margin: -3% 0 0 1rem;
+  margin: 0 0 1rem -10%;
   font-size: .75em;
   float: left;
   clear: both;
-  padding: 1em;
+  padding: 0 0 1rem 1rem;
 }
 
-.logo-bottom{
-  float:right;
-  margin: -3% 1rem 0 1rem;
-  clear: both;
-}
+
 

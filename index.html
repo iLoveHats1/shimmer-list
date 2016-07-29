@@ -3,193 +3,225 @@
 
 <head>  
 
-<!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Basic Page Needs -->
   <meta charset="utf-8">
   <title>Shimmer-list</title>
   <meta name="referral page to beauty services" content="">
   <meta name="Stacey K. Flatt" content="">
 
-<!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Mobile Specific Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,400italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
-  
 
-<!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Fonts--> 
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,400italic,300italic|Oswald:400,700' rel='stylesheet' type='text/css'>
+
+<!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-  <link rel="stylesheet" type="text/css" href="styles/css/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
-    
+  <link rel="stylesheet" type="text/css" href="styles/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">   
 </head>
-
-  
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
-    </div>
-  </div>
-  ––––––––– -->
-
   
 
 <body> 
-
+  <!-- Begin Header -->
   <header role="banner" class="header">
-    <h4 class= "top-signup">Sign Up!</h4>
-    <a href="index.html" class ="top-logo">
-      <img src="assets/shimmer-logo.png" alt = "Shimmer-list logo">
-    </a>
+    <div class="container">
+      <div class="row">
+        <a href="index.html" class ="top-logo">
+          <img src="assets/shimmer-logo.png" alt = "Shimmer-list logo">
+        </a>
+        <a href="#" role="button" class="button top-signup">Sign Up!</a>
+      </div>
+    </div>
   </header>
+  <!-- End Header -->
 
+  <!-- Begin Main Page View -->
   <main role="main">
-    <section>
+    
+  <!-- Begin Categories Section -->
+  <section role="region" class="page-section">
+    <div class="container">
       <div class= "row"> 
-      <div class="twelve columns categories">
-
-        <p class="intro">Shimmer-list brings you the best Hair Stylists, Tattoo Artists, Massage Therapists, <br>and many more personal service providers San Antonio has to offer.</p>
-      
-        <h3 class="title">Search Popular Categories</h3>
-      </div>
-
-        <div class="first row">
-          <a href="#">
-            <div class="module three columns">
-            
-              <img src="assets/massage-crop.png" alt= "Spa Services" class="cat-button">
-              <div class="tint">
-              <h5>Spa Services</h5> 
-              </div>
-            </div>
-          </a>
-          <a href="#">
-            <div class="module three columns">
-              <img src="assets/beauty-crop.png" alt= "Style & Beauty" class="cat-button">
-              <div class="tint">
-              <h5>Style & Beauty</h5>
-              </div>
-            </div>
-          </a>
-          <a href="#">
-            <div class="module three columns">
-              <img src="assets/tattoo-crop.png" alt= "Body Art" class="cat-button">
-              <div class="tint">
-              <h5>Body Art</h5>
-              </div>
-            </div>
-          </a>
-          <a href="#">
-            <div class="module three columns">
-              <img src="assets/fitness-crop.png" alt= "Health & Fitness" class="cat-button">
-              <div class="tint">
-              <h5>Health & Fitness</h5>  
-              </div>
-            </div>
-          </a>
-
-        </div>
-    </section>
-          
-
-
-    <section class="works">
-      <h3 class="title">How it works...</h3>
-      <p class="light">Shimmer-list is built on the idea that it is hard to find the right personal service providers<br> and that everyone can appreciate referrals to such services.</p>
-      
-      <div class="row">
-        <div class="icon-heart one-fourth columns">
-          <img src="assets/heart.png" alt= "You heart">
-          <h5>You love your <span>fill in the blank.</span></h5>  
-        </div>
-          
-        <div class="icon-trophy one-fourth columns">
-          <img src="assets/trophy.png" alt="You nominate">
-          <h5>Nominate your favorite service providers.</h5>
-        </div>
-          
-        <div class="icon-list one-fourth columns">
-          <img src="assets/star-list.png" alt="Shimmer-list grows">
-          <h5>Shimmer-list grows.</h5>
-        </div>
-          
-        <div class="icon-users one-fourth columns">
-          <img src="assets/group.png" alt= "Users grow">
-          <h5>Users grow.</h5>
+        <div class="categories">
+          <div class="ten offset-by-one columns">
+            <p class="intro">Shimmer-list brings you the best Hair Stylists, Tattoo Artists, Massage Therapists, and many more personal service providers San Antonio has to offer.</p>
+          </div>
         </div>
       </div>
+      <h3 class="title">Search Popular Categories
+      </h3>
+      <ul class= "category-list row">
+        <li class= "category-item card card-purple three columns">
+          <a href="#" class="card-link">
+            <img src="assets/massage-crop.png" alt="Spa Services" class="category-item-image">
+            <div class="card-label">
+              <h5 class="card-label-title">Spa Services</h5> 
+            </div>
+          </a>
+        </li>
+        <li class= "category-item card card-green three columns">
+          <a href="#" class="card-link">
+            <img src="assets/beauty-crop.png" alt= "Style & Beauty" class="category-item-img">
+            <div class="card-label">
+              <h5 class="card-label-title">Style & Beauty</h5>
+            </div>
+          </a>
+        </li>
+        <li class="category-item card card-purple three columns">
+          <a href="#" class="card-link">
+            <img src="assets/tattoo-crop.png" alt= "Body Art" class="category-item-img">   
+            <div class="card-label">
+              <h5 class="card-label-title">Body Art</h5>
+            </div>
+          </a>
+        </li>
+        <li class="category-item card card-green three columns">
+          <a href="#" class="card-link">
+            <img src="assets/fitness-crop.png" alt= "Health & Fitness" class="category-item-img">
+            <div class="card-label">
+              <h5 class="card-label-title">Health & Fitness</h5>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- End Categories Section -->
 
-      <a class="button button primary mid-signup" href="#">Sign Up!</a>
-    </section>
-
-    <section class="testimonial"> <!--testimonial-->
-      <h3 class="title">Who uses Shimmer-list?</h3>
-      <p class="left-p">Shimmer-list is being used by all types of people. It's perfect for new to the city people, those just looking for a new haircut, tattoo, massage, etc., for those wanting to share their favorite providers with friends and family, and for personal services businesses to get found by new customers.</p>
-
-      <div class="row">
-        <blockquote class="speech-bubble five columns">
-        <p class="right-p">Shimmer-list helped my tattoo shop get found. Everyday, I have new customers saying they found me on Shimmer-list.</p>
-        </blockquote>
-
+  <!-- Begin Work Section -->
         
-        <div class="person five columns"> <!--testimonial person and bubble-->
-          <img src="assets/shop-owner.png" alt= "Business Owner"> 
+  <section role="region" class="page-section page-section-purple-bg">
+    <div class="container">
+      <div class="row">
+        <div class="ten offset-by-one columns">
+          <h3 class="title text-inverse">How it works...</h3>
+          <p class="light text-inverse">Shimmer-list is built on the idea that it is hard to find the right personal service providers and that everyone can appreciate referrals to such services.
+          </p>
         </div>
-        <p class="name">Toby M.<br>Bad-Azz Tattoo Shop</p>
+      </div>
+      
+      <div class="row">
+        <ul class="how-it-works-list arrows">
+          <li>
+            <img src="assets/arrow-rt.png" class="arrow-1" />
+          </li>
+          <li>
+            <img src="assets/arrow-rt.png" class="arrow-2" />
+          </li>
+          <li>
+            <img src="assets/arrow-rt.png" class="arrow-3" />
+          </li>
+        </ul>
+
+        <ul class="how-it-works-list">
+          <li class="how-it-works-item three columns">
+            <img src="assets/heart.png" alt="You heart">
+            <h5 class="text-inverse how-it-works-label">You love your fill in the blank.</h5> 
+          </li>
+          <li class="how-it-works-item three columns">
+            <img src="assets/trophy.png" alt="You nominate">
+            <h5 class="text-inverse how-it-works-label">Nominate your favorite service providers.</h5>
+          </li>
+          <li class="how-it-works-item three columns">
+            <img src="assets/star-list.png" alt="Shimmer-list grows">
+            <h5 class="text-inverse how-it-works-label">Shimmer-list grows.</h5>
+          </li>
+          <li class="how-it-works-item three columns">
+            <img src="assets/group.png" class="i-equal" alt= "Users grow">
+            <h5 class="text-inverse how-it-works-label">Users grow.</h5>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <a role="button" class="button mid-signup" href="#">Sign Up!</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Work Section -->
+
+  <!-- Begin Testimonial Section -->
+  <section role="region" class="page-section">
+    <div class="container">
+      <div class="row">
+        <div class="ten offset-by-one columns">
+          <h3 class="title">Who uses Shimmer-list?</h3>
+          <p class="light">Shimmer-list is being used by all types of people. It's perfect for new to the city people, those just looking for a new haircut, tattoo, massage, etc., for those wanting to share their favorite providers with friends and family, and for personal services businesses to get found by new customers.
+          </p>
+        </div>
       </div>
 
-    </section>
+      <ul class="row">
+        <li class="testimonial-card six columns"> <!--testimonial person and bubble-->
+          <blockquote>
+            <p class="quote text-inverse">"Shimmer-list helped my tattoo shop get found. Everyday, I have new customers saying they found me on Shimmer-list." 
+            </p>
+            <img src="assets/shop-owner.png" class="person" alt= "Business Owner">
+
+            <footer>
+              <span class="name text-inverse">Toby M.</span>
+              <span class="shop text-inverse">Bad-Azz Tattoo Shop</span>
+            </footer>       
+          </blockquote>
+        </li>
+        <li class="testimonial-card six columns"> <!--testimonial person and bubble-->
+          <blockquote>
+            <p class="quote text-inverse">"I had justed moved to San Antonio, so I didn't know anyone, and using this, helped me find a great new Hair Stylist" </p>
+            <img src="assets/lady2.jpg" class="person" alt= "Business Owner">
+            <footer>
+              <span class="name text-inverse">Sara M.</span>
+              <span class="shop text-inverse">San Antonio Newbie</span>
+            </footer>       
+          </blockquote>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- End Testinmonail Section -->
     <hr></hr>
   </main>
+  <!-- End Main Page view -->
 
-    <footer role="footer">
-      <div class="footer row">   
-
-        <div class="links">
+  <!-- Start Footer -->
+  <!-- nav links -->
+    <footer role="footer" class="footer">
+      <div class="container">
+        <div class="row links">   
           <ul class="text-links">
             <li class="each">
-              <a href="#">Search</a>
+              <a href="#" class="nav-item">Search</a>
             </li>
             <li class="each">
-              <a href="#">Get your business on Shimmer-list</a>
-            </li>
-
-            <li class="each">
-              <a href="#">About</a>
-            </li>
-          </ul>
-          <ul class="text-links">
-            <li class="each">
-              <a href="#">How it works</a>
+              <a href="#" class="nav-item">Get your business on Shimmer-list</a>
             </li>
             <li class="each">
-              <a href="#">Contact</a>
+              <a href="#" class="nav-item">About</a>
+            </li>
             <li class="each">
-              <a href="#">Help</a>
+              <a href="#" class="nav-item">How it works</a>
+            </li>
+            <li class="each">
+              <a href="#" class="nav-item">Contact</a>
+            <li class="each">
+              <a href="#" class="nav-item">Help</a>
             </li>
           </ul>
         </div>
 
-        <a href="index.html" class ="logo-bottom">
-          <img src="assets/shimmer-logo.png" alt = "Shimmer-list logo"> </a>
-        <p class="copy">&copy; 2016 Shimmer-list. All rights reserved. </p>
-      
-
-      </div>
+         <!-- footer logo and copyright -->
+        <div class="row">
+          <span class="logo-bottom six columns">
+            <a href="index.html">
+              <img src="assets/shimmer-logo.png" alt = "Shimmer-list logo">
+            </a>
+          </span>
+    
+          <p class="copy six columns">&copy; 2016 Shimmer-list. All rights reserved. </p>
+        </div>
     </footer>
     
-    </div>
-    </body>
+  </div>
+  </body>
   
 
 
