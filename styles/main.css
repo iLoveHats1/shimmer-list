@@ -36,7 +36,6 @@ body {
   box-sizing: border-box;
 }
 
-
 .header{
   margin: 1.5rem;
 }
@@ -49,8 +48,6 @@ li {
   text-decoration: none;
   list-style: none;
 }
-
-
 
 /* Typography styles */
 
@@ -145,8 +142,6 @@ li {
   -moz-border-radius:240px / 140px;
   border-radius: 18px;
 }
-
-
 
 
 /******* Button Styles****/
@@ -280,8 +275,6 @@ img.i-equal{
   margin-top:10rem;
   clear: both;
 }
-
-
 
 /***Testimonial section css ***/
     /* image and border */
