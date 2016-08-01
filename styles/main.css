@@ -37,11 +37,14 @@ body {
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 =======
   /*margin: 1.5rem;*/
  }
 >>>>>>> a12223ecc344c4b1471980645732dca57a4abbb8
 
+=======
+>>>>>>> re-code2-07-27
 .header{
   margin: 1.5rem;
 }
@@ -54,8 +57,6 @@ li {
   text-decoration: none;
   list-style: none;
 }
-
-
 
 /* Typography styles */
 
@@ -160,8 +161,6 @@ li {
   -moz-border-radius:240px / 140px;
   border-radius: 18px;
 }
-
-
 
 
 /******* Button Styles****/
@@ -403,8 +402,6 @@ img.i-equal{
 
 >>>>>>> a12223ecc344c4b1471980645732dca57a4abbb8
 }
-
-
 
 /***Testimonial section css ***/
     /* image and border */
