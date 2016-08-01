@@ -29,7 +29,6 @@ body {
   color: #333;
   min-height: 100%;
   text-align: center;
-<<<<<<< HEAD
   overflow-x: hidden;
 }
 
@@ -37,14 +36,6 @@ body {
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-=======
-  /*margin: 1.5rem;*/
- }
->>>>>>> a12223ecc344c4b1471980645732dca57a4abbb8
-
-=======
->>>>>>> re-code2-07-27
 .header{
   margin: 1.5rem;
 }
@@ -71,16 +62,11 @@ li {
 .title{
   padding: 4% 0 1% 0;
   font-weight: 600;
-<<<<<<< HEAD
 }
-=======
- }
-
  .top-logo{
   float: left;
 
  }
->>>>>>> a12223ecc344c4b1471980645732dca57a4abbb8
 
 .intro{
   font-size: 1.75rem;
@@ -119,7 +105,6 @@ li {
   display: block;
 }
 
-<<<<<<< HEAD
 .card img {
   width: 100%;
 }
@@ -164,14 +149,9 @@ li {
 
 
 /******* Button Styles****/
-=======
+
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
-  text-decoration: none;
-}
-
->>>>>>> a12223ecc344c4b1471980645732dca57a4abbb8
 .button,
 button,
 input[type="submit"],
@@ -220,60 +200,13 @@ input[type="button"]:focus {
   margin: 1rem 0;
   padding: 1rem 2rem 4rem 2rem;
   float: right;
-}
+} 
 
 /* How it Works Section specific Styles */
 
-<<<<<<< HEAD
 .how-it-works-list.arrows {
   position: relative;
   top: 50px;
-=======
-.module {
-  background-attachment: fixed;
-
-  position: relative;
-  overflow: hidden;
-}
-.module > .tint {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding:7px;
-
-  background-attachment: fixed;
-  overflow: hidden;
-  border-radius: 0 0 16px 16px;
-}
-.module > .tint::before {
-  content: "";
-  position: absolute;
-  top: -20px;
-  left: 0;
-  width: 200%;
-  height: 200%;
-  background: rgba(51,51,51,0.35);
-  background-attachment: fixed;
-  -webkit-filter: blur(4px);
-  filter: blur(4px);
-}
-.module > .tint::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(51,51,51,.35)
-}
-.module > .tint > h5 {
-  margin: 0;
-  color: white;
-  position: relative;
-  z-index: 1;
->>>>>>> a12223ecc344c4b1471980645732dca57a4abbb8
-}
 
 .arrow-1,
 .arrow-2,
@@ -294,7 +227,7 @@ input[type="button"]:focus {
   left: 73%;
 }
 
-<<<<<<< HEAD
+
 .how-it-works-label {
   font-size: 2rem;
   padding: 2rem;
@@ -303,12 +236,6 @@ input[type="button"]:focus {
 
 img.i-equal{
   margin-bottom: 24px;
-=======
-.choices{
-  display: inline-block;
-
-  cursor: pointer;
-}
 
 
 .works {
@@ -347,7 +274,6 @@ img.i-equal{
   padding:5% 3% 7% 3%;
 }
 
-<<<<<<< HEAD
 /****** Logo Styles  ********/
 
 .top-logo{
@@ -358,16 +284,7 @@ img.i-equal{
   float:right;
   margin: 0 -20% -1rem 0;
 =======
-.top-signup {
-  font-family: 'Oswald';
-  font-size: 1.25em;
-  font-weight: bold;
-  color: #336666;
-  display: inline-block;
-  padding:.5em 1em;
-  border: .25em solid #336666;
-  border-radius: .5em;
-  float: right;
+
 
 }
 .mid-signup {
@@ -455,12 +372,10 @@ img.i-equal{
 
 .links{
   text-align: center;
-<<<<<<< HEAD
   font-weight: 400;
   margin-bottom: 4rem;
   font-size: .85em;
   color: #333366;
-=======
   color:#fff;
   background:#663366; /* default background for browsers without gradient support */
   /* css3 */
@@ -513,7 +428,7 @@ img.i-equal{
   height: 31px;
   background: transparent;
   border-bottom-right-radius: 40px 50px;
->>>>>>> a12223ecc344c4b1471980645732dca57a4abbb8
+
 }
 
 /** Copyright style **/
