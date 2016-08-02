@@ -49,6 +49,13 @@ li {
   list-style: none;
 }
 
+input.search-input{
+  border: 1px solid rgba(51,51,51,0.5);
+  font-weight: 300;
+  padding: 2rem;
+  margin:1rem;
+}
+
 /* Typography styles */
 
 .text-inverse {
@@ -63,11 +70,8 @@ li {
   padding: 4% 0 1% 0;
   font-weight: 600;
 }
- .top-logo{
-  float: left;
-
- }
-
+ 
+ 
 .intro{
   font-size: 1.75rem;
 }
@@ -192,6 +196,8 @@ input[type="button"]:focus {
 
 /* sign up buttons */
 
+
+
 .mid-signup {
   margin-bottom: 3rem;
 }
@@ -207,6 +213,8 @@ input[type="button"]:focus {
 .how-it-works-list.arrows {
   position: relative;
   top: 50px;
+
+}
 
 .arrow-1,
 .arrow-2,
@@ -236,16 +244,7 @@ input[type="button"]:focus {
 
 img.i-equal{
   margin-bottom: 24px;
-
-
-.works {
-  color:white;
-  display:block;
-  background-color: rgb(51, 51, 102);
-  position: relative;
-  overflow: auto;
-  text-align: center;
-
+}
 
 
 /** Icon Images for works section ***/
@@ -276,60 +275,36 @@ img.i-equal{
 
 /****** Logo Styles  ********/
 
+
 .top-logo{
-  float: left; 
- }
+  float: left;
+}
 
 .logo-bottom{
   float:right;
   margin: 0 -20% -1rem 0;
-=======
-
-
-}
-.mid-signup {
-  font-family: 'Oswald';
-  font-weight: bold;
-  color: #336666;
-  background: white;
-  text-align: center;
-  display: inline-block;
-  border: .25em solid #336666;
-  border-radius: 16px;
-  margin-bottom: 5rem;
->>>>>>> a12223ecc344c4b1471980645732dca57a4abbb8
-  clear: both;
 }
 
-<<<<<<< HEAD
+
+
 /** Categories Section specific styles **/
 
 .categories{
   margin-top:10rem;
   clear: both;
-=======
-.right-p{
-  text-align: center;
-  display: inline-block;
-  margin: 1rem;
-  border-color: white;
-  line-height: 3rem;
-  font-weight: 200;
-  font-style: italic;
-
->>>>>>> a12223ecc344c4b1471980645732dca57a4abbb8
 }
 
 /***Testimonial section css ***/
     /* image and border */
 
-.person{
-  border: 6px solid #663366;
+
+img.person{
+  border: 4px solid #663366;
   border-radius:50%;
-  box-shadow: 0 0 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.35);
   position: relative;
   overflow:hidden;
-  max-width: 140px;
+  max-width: 125px;
   margin-bottom: 1.5rem;
 }
 
@@ -354,14 +329,15 @@ img.i-equal{
 
 /** Footer Styles **/
 
-/*** Bottom Nav ****/
-
-.text-links{
-  margin-bottom: 0;
+.footer{
+  background-color: rgba(51,51,51,0.8);
 }
 
+/*** Bottom Nav ****/
+
+
 .nav-item{
-  color: #333366;
+  color: #ffffff;
 }
 
 .each{
@@ -372,64 +348,12 @@ img.i-equal{
 
 .links{
   text-align: center;
-  font-weight: 400;
-  margin-bottom: 4rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
   font-size: .85em;
-  color: #333366;
-  color:#fff;
-  background:#663366; /* default background for browsers without gradient support */
-  /* css3 */
-  background:-webkit-gradient(linear, 0 0, 0 100%, from(#c26ec2), to(#663366));
-  background:-moz-linear-gradient(#c26ec2, #663366);
-  background:-o-linear-gradient(#c26ec2, #663366);
-  background:linear-gradient(#c26ec2, #663366);
-  /* Using longhand to avoid inconsistencies between Safari 4 and Chrome 4 */
-  -webkit-border-top-left-radius:240px 140px;
-  -webkit-border-top-right-radius:240px 140px;
-  -webkit-border-bottom-right-radius:240px 140px;
-  -webkit-border-bottom-left-radius:240px 140px;
-  -moz-border-radius:240px / 140px;
-  border-radius:240px / 140px;
+  
 }
 
-
-/* creates the larger triangle */
-.speech-bubble:before {
-  content:"";
-  position:absolute;
-  z-index: 2;
-  bottom:-38px;
-  right: 45%;
-  width: 60px;
-  height:30px;
-  border-width:0 12px 10px 0;
-  border-style:solid;
-  border-color: #663366;
-  margin-right: -10px
-  background: transparent;
-  /* reduce the damage in FF3.0 */
-  display:block;
-  border-bottom-right-radius: 60px 60px;
-}
-
-/* creates the smaller triangle */
-.speech-bubble:after {
-  content:"";
-  position: absolute;
-  z-index: 2;
-  display: block;
-  position:absolute;
-  bottom:-38px;
-  right: 52%;
-  border-width:0 12px 10px 0;
-  border-style:solid;
-  border-color: #663366;
-  width: 20px;
-  height: 31px;
-  background: transparent;
-  border-bottom-right-radius: 40px 50px;
-
-}
 
 /** Copyright style **/
 
@@ -440,144 +364,9 @@ img.i-equal{
   float: left;
   clear: both;
   padding: 0 0 1rem 1rem;
+  font-weight: 300;
+  color: rgba(255,255,255,0.7);
 }
 
 
 
-
-
-
-/* Kurt's Suggested Layout */
-
-
-/********** Table of Content **********/
-
-  /* Basic Colors
-      Black:  #333333;
-      Green:  #336666;
-      Purple: #663366;
-
-      Basic Type
-      Main - font-family: 'Open Sans' Helvetica, Sans-serif;
-      Alt  - font-family: 'Oswald', Helvetica, Sans-serif;
-
-  Sections
-    • General
-    • Typography
-    • Page
-    • Buttons
-    • Card
-    • Modules
-      • Navigation
-
-***************************************/
-
-
-/* General Styles */
-
-html,
-body {
-  height: 100%;
-  overflow-x: hidden;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  text-decoration: none;
-  list-style: none;
-}
-
-
-/* Typography Styles */
-  /*Current type styles are being inherited from Skeleton*/
-
-.text-inverse {
-  color: #FFFFFF;
-}
-
-
-/* Page Styles */
-.page-section {
-  padding: 20px 0;
-  position: relative;
-}
-
-.page-section.page-section-purple-bg {
-  background-color: #663366;
-}
-
-
-
-/* Button Styles */
-  /*I haven't written any button styles*/
-
-
-/* Card Styles */
-.card {
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
-  overflow: hidden;
-  position: relative;
-}
-
-.card-purple {
-  border: 8px solid #663366;
-}
-
-.card-green {
-  border: 8px solid #336666;
-}
-
-.card-link {
-  display: block;
-}
-
-.card img {
-  width: 100%;
-}
-
-.card-label {
-  display: block;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.75);
-  position: absolute;
-  width: 100%;
-}
-
-.card-label-title {
-  color: #FFFFFF;
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 0;
-}
-
-
-
-/* How It Works Section Specific Styles */
-
-.how-it-works-list.arrows {
-  position: relative;
-  top: 50px;
-}
-
-.arrow-1,
-.arrow-2,
-.arrow-3 {
-  position: absolute;
-  width: 50px;
-}
-
-.arrow-1 {
-  left: 22%;
-}
-
-.arrow-2 {
-  left: 47%;
-}
-
-.arrow-3 {
-  left: 73%;
-}

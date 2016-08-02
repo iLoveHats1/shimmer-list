@@ -15,7 +15,8 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" href="styles/normalize.css">
   <link rel="stylesheet" type="text/css" href="styles/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="styles/main.css">   
+  <link rel="stylesheet" type="text/css" href="styles/main.css"> 
+  <link rel="stylesheet" type="text/css" href="stles/category-pg.css">   
 </head>
   
 <body> 
@@ -23,13 +24,20 @@
   <header role="banner" class="header">
     <div class="container">
       <div class="row">
-        <a href="index.html" class ="top-logo">
-          <img src="assets/shimmer-logo.png" alt = "Shimmer-list logo">
-        </a>
-        <input type="search" placeholder="Search ..." class="search-input" />
-        <a href="#" role="button" class="button top-signup">Sign Up!</a>
+        <div class="four columns">
+          <a href="index.html">
+            <img src="assets/shimmer-logo.png" alt = "Shimmer-list logo" class ="top-logo">
+          </a>
+        </div>
+        <div class="four columns">
+          <input type="search" placeholder="Search ..." class="search-input" />
+        </div>
+        <div class="four columns">
+          <a href="#" role="button" class="button top-signup">Sign Up!</a>
+        </div>
       </div>
     </div>
+
   </header>
   <!-- End Header -->
 
@@ -91,10 +99,9 @@
   <section role="region" class="page-section page-section-purple-bg">
     <div class="container">
       <div class="row">
-        <div class="ten offset-by-one columns">
-          <h3 class="title text-inverse">How it works...</h3>
-          <p class="light text-inverse">Shimmer-list is built on the idea that it is hard to find the right personal service providers and that everyone can appreciate referrals to such services.
-          </p>
+        <h3 class="title text-inverse">How it works...</h3>
+        <p class="light text-inverse">Shimmer-list is built on the idea that it is hard to find the right personal service providers and that everyone can appreciate referrals to such services.
+        </p>
         </div>
       </div>
       
@@ -107,7 +114,7 @@
             <img src="assets/arrow-rt.png" class="arrow-2" />
           </li>
           <li>
-            <img src="assets/arrow-rt.png" class="arrow-3" />
+            <img src="assets/2-way-arrow.png" class="arrow-3" />
           </li>
         </ul>
 
@@ -149,22 +156,22 @@
       </div>
 
       <ul class="row">
-        <li class="testimonial-card six columns"> <!--testimonial person and bubble-->
+        <li class="testimonial-card six columns"> <!--testimonial cards (2)-->
           <blockquote>
             <p class="quote text-inverse">"Shimmer-list helped my tattoo shop get found. Everyday, I have new customers saying they found me on Shimmer-list." 
             </p>
-            <img src="assets/shop-owner.png" class="person" alt= "Business Owner">
+            <img src="assets/shop-owner.png" class="person" alt="Business Owner">
 
             <footer>
-              <cite class="name text-inverse">Toby M.</cite>
+              <span class="name text-inverse">Toby M.</span>
               <span class="shop text-inverse">Bad-Azz Tattoo Shop</span>
             </footer>       
           </blockquote>
         </li>
-        <li class="testimonial-card six columns"> <!--testimonial person and bubble-->
+        <li class="testimonial-card six columns"> <!--testimonial card -->
           <blockquote>
             <p class="quote text-inverse">"I had justed moved to San Antonio, so I didn't know anyone, and using this, helped me find a great new Hair Stylist" </p>
-            <img src="assets/lady2.jpg" class="person" alt= "Business Owner">
+            <img src="assets/lady2.jpg" class="person" alt="Business Owner">
             <footer>
               <span class="name text-inverse">Sara M.</span>
               <span class="shop text-inverse">San Antonio Newbie</span>
@@ -175,7 +182,7 @@
     </div>
   </section>
   <!-- End Testinmonail Section -->
-    <hr></hr>
+    
   </main>
   <!-- End Main Page view -->
 

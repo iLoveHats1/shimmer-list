@@ -1,0 +1,74 @@
+/** Feauture Business Section Styles **/
+
+.breadcrumb{
+  font-size: 1.5rem;
+  font-weight:600;
+  display: inline-block;
+  float: left;
+  padding: 1rem 3rem 1rem 2rem;
+}
+
+.trail{
+  margin-top: 10rem;
+}
+
+
+.line{
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.feature{
+  max-width: 440px;
+  max-height: 440px;
+  float:left;
+  border-radius: 18px;
+  border: 8px solid #336666;
+  box-shadow: 0 0 10px rgba(0,0,0,0.35);
+}
+
+.article-title{
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.article-sub-title{
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 1.5rem;
+}
+
+.feature-article{
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-top: 1.5rem;
+  text-align: justify;
+  line-height: 3rem;
+}
+
+.article-biz-info{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.sub-cat{
+  padding-top: 1rem;
+}
+
+.biz-name{
+  font-size: 1.75rem;
+  font-weight: 600;
+  padding-top: 1.5rem;
+}
+.biz-listings{
+  float:left;
+  text-align: justify;
+}
+
+.advert-placeholder{
+  float:right;
+  border:2px solid #333;
+  max-width: 200px;
+  min-height:400px;
+}
