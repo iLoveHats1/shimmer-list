@@ -74,6 +74,7 @@ input.search-input{
  
 .intro{
   font-size: 1.75rem;
+  font-weight: 300;
 }
 
 
@@ -90,8 +91,41 @@ input.search-input{
 
 /* Card Styles for Categories */
 
+.category-item {
+  height:200px;
+  width:200px;
+}
+
+.cat-item1 {
+  background-image: url('..//assets/massage-crop.png');
+}
+
+.cat-item2 {
+  background-image: url('..//assets/beauty-crop.png');
+}
+
+.cat-item3 {
+  background-image: url('..//assets/tattoo-crop.png');
+}
+
+.cat-item4 {
+  background-image: url('..//assets/fitness-crop.png');
+}
+
+.cat-item5 {
+  background-image: url('..//assets/piercing-crop.jpg');
+}
+
+.cat-item6 {
+  background-image: url('..//assets/hand-tat.png');
+}
+
+.cat-item7 {
+  background-image: url('..//assets/body-paintingpng.png');
+}
+
 .card {
-  border-radius: 18px;
+  border-radius: 18px 18px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
   overflow: hidden;
   position: relative;
@@ -116,17 +150,48 @@ input.search-input{
 .card-label {
   display: block;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.75);
+  left: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-attachment: fixed;
   position: absolute;
-  width: 100%
+  width: 100%;
+  border-radius: 0 0 12px 12px;
 }
 
+.card-label::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: inherit;
+  background-attachment: fixed;
+  -webkit-filter: blur(8px);
+  filter: blur(8px);
+}
+
+.card-label::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+  
+}
 .card-label-title {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.75rem;
   font-weight: 300;
   margin-bottom: 0;
-  letter-spacing: 0.15rem;
+  letter-spacing: 1.5px;
+  padding-top: .75rem;
+  padding-bottom: 1rem;
+  z-index: 1;
+  position: relative;
 }
 
 /* Testimonial Card Style */

@@ -12,12 +12,17 @@
   margin-top: 10rem;
 }
 
+.breadcrumb-chevron{
+  color: #333;
+}
+
 
 .line{
   margin-bottom: 2rem;
   margin-top: 0;
 }
 
+/** Feature Business article and info **/
 .feature{
   max-width: 440px;
   max-height: 440px;
@@ -34,16 +39,16 @@
 
 .article-sub-title{
   font-size: 1.5rem;
-  font-weight: 500;
   padding-top: 1.5rem;
 }
 
 .feature-article{
+  font-weight: 300;
   font-size: 1.25rem;
-  font-weight: 400;
   padding-top: 1.5rem;
   text-align: justify;
   line-height: 3rem;
+  letter-spacing:1.25px;
 }
 
 .article-biz-info{
@@ -56,6 +61,11 @@
   padding-top: 1rem;
 }
 
+.biz-photo{
+  margin-bottom: -6px;
+  min-width: 100px;
+}
+
 .biz-name{
   font-size: 1.75rem;
   font-weight: 600;
@@ -65,6 +75,22 @@
   float:left;
   text-align: justify;
 }
+
+.listing-biz-name{
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.listing-biz-info1,
+.listing-biz-info2,
+.listing-biz-info3,
+.listing-biz-info4{
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: rgba(51,51,51,0.75);
+}
+
 
 .advert-placeholder{
   float:right;
