@@ -1,0 +1,225 @@
+.biz-pg-title {
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 1.5px;
+  padding-right: 4rem;
+  font-size: 3rem;
+}
+
+.biz-header {
+  margin-bottom: 0;
+  line-height: 1;
+  
+}
+
+.biz-header-part {
+  float:left;
+  padding-left: 1rem;
+  margin-bottom: 0;
+}
+
+.reviews{
+  font-size: 2rem;
+  font-weight: 300;
+  padding-left: 2rem;
+  line-height: 2;
+}
+
+.star{
+  font-size: 1.75rem;
+  line-height: 2;
+
+}
+
+.share-icon{
+  padding: 0 15px 0 40px;
+}
+
+.fb-icon{
+  padding: 0 15px;
+  color: #336699;
+}
+
+.twit-icon{
+  padding: 0 15px;
+  color: #6699ff;
+}
+
+.insta-icon{
+  height: 30px;
+  padding-left: 15px;
+}
+
+.biz-image-5 {
+  border:6px solid black;
+  padding: 2rem 2rem 1rem 2rem;
+  background-color: black;
+}
+
+.biz-photo-show {
+  min-height: 100px;
+  max-height: 200px;
+}
+
+.each-biz-photo {
+  margin-bottom: 0;
+}
+
+.text-n-review{
+  float:left;
+}
+
+.biz-label {
+  text-align: left;
+  font-size: 1.75rem;
+  letter-spacing: 1.5px
+}
+
+.descript {
+  font-weight: 300;
+  text-align: justify;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+
+.descript-date {
+  padding-left: 2rem;
+  float: right;
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+.reviewer {
+  max-width: 75px;
+  border: 1px solid black;
+}
+.member {
+  padding:3rem 0;
+  font-size: .85em;
+  text-align: center;
+}
+
+.review {
+  float:right;
+  text-align:justify;
+  margin-bottom: 2rem;
+}
+
+.review-title {
+  line-height: 2rem;
+  float: right;
+}
+
+.biz-contact {
+  border: 1px solid rgba(51,51,51,0.65);
+  min-height: 800px;
+}
+
+.contact {
+  display: inline-block;
+  padding-top: 1.5rem;
+  font-size: 1em;
+  letter-spacing: 1.25px;
+  margin-bottom: 1rem;
+}
+
+.phone-icon {
+  color: #663366;
+}
+
+.laptop-icon {
+  color: #333366;
+}
+
+.contact-website {
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+.contact-phone-num {
+  
+}
+
+.hrs {
+  font-size: 1.75rem;
+  letter-spacing: 1.5px;
+  padding-top:5rem;
+  margin-bottom: 1rem;
+  color: #336666;
+}
+
+.hrs-contact {
+  font-size: 1em;
+  padding-top: 0;
+}
+
+.text-italic {
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.map-addy {
+  line-height: 1rem;
+  padding-top: 1rem;
+  font-size: 1em;
+  margin-bottom: 1rem;
+  letter-spacing: 1.75px;
+}
+
+.get-direct{
+  text-decoration: underline;
+  color: rgba(51,102,102,0.75);
+  margin-top: 1.5rem;
+  font-style: italic;
+}
+
+.write-bg {
+  background-color: rgba(51,51,51,0.25);
+  border: 1px solid rgba(51,51,51,0.5);
+  min-height: 350px;
+}
+
+.write-review {
+  margin-top: 1em;
+  float: left;
+}
+
+.write-input {
+  color: rgba(51,51,51,51,0.8);
+  font-weight: 300;
+  margin: 1rem 2rem;
+}
+
+.fill-in-star {
+  padding: 1em .25em;
+}
+
+.ea-star {
+  float: left;
+  padding:0;
+  margin-bottom: 0;
+}
+
+.click-stars {
+  text-align: left;
+  float: left;
+  margin-left: 1em;
+  margin-bottom: 0;
+}
+
+.click-text {
+  font-weight: 300;
+  line-height: 1em;
+  letter-spacing: 1px;
+  float: left;
+  margin-left: 1.5em;
+
+}
+
+.textarea {
+  min-height: 100px;
+}
+
+.submit-bt {
+  margin-top: 2rem;
+}
