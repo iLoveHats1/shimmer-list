@@ -126,6 +126,8 @@ input.search-input{
   background-image: url('..//assets/body-paintingpng.png');
 }
 
+/* Card Styles */
+
 .card {
   border-radius: 18px 18px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
@@ -263,8 +265,6 @@ input[type="button"]:focus {
 
 /* sign up buttons */
 
-
-
 .mid-signup {
   margin-bottom: 3rem;
 }
@@ -352,8 +352,6 @@ img.i-equal{
   margin: 0 -20% -1rem 0;
 }
 
-
-
 /** Categories Section specific styles **/
 
 .categories{
@@ -420,7 +418,6 @@ img.person{
   font-size: .85em;
   
 }
-
 
 /** Copyright style **/
 
