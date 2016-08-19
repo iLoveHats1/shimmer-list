@@ -52,10 +52,14 @@ li {
 input.search-input{
   border: 1px solid rgba(51,51,51,0.5);
   font-weight: 300;
-  padding: 2rem;
-  margin:1rem;
+  padding: 1rem;
+  margin-top: 2rem;
 }
 
+li.search-input {
+  display: inline-block;
+  width:100%;
+}
 /* Typography styles */
 
 .text-inverse {
@@ -91,6 +95,10 @@ input.search-input{
   background-color: #333366;
 }
 
+.page-section.page-section-no-top-pad {
+  padding-top: 0;
+}
+
 /* Card Styles for Categories */
 
 .category-item {
@@ -100,30 +108,51 @@ input.search-input{
 
 .cat-item1 {
   background-image: url('..//assets/massage-crop.png');
+  width: 100%;
+  max-width: 200px;
+  min-width: 100px;
 }
 
 .cat-item2 {
   background-image: url('..//assets/beauty-crop.png');
+  width: 100%;
+  max-width: 200px;
+  min-width: 100px;
 }
 
 .cat-item3 {
   background-image: url('..//assets/tattoo-crop.png');
+  width: 100%;
+  max-width: 200px;
+  min-width: 100px;
 }
 
 .cat-item4 {
   background-image: url('..//assets/fitness-crop.png');
+  width: 100%;
+  max-width: 200px;
+  min-width: 100px;
 }
 
 .cat-item5 {
   background-image: url('..//assets/piercing-crop.jpg');
+  width: 100%;
+  max-width: 200px;
+  min-width: 100px;
 }
 
 .cat-item6 {
   background-image: url('..//assets/hand-tat.png');
+  width: 100%;
+  max-width: 200px;
+  min-width: 100px;
 }
 
 .cat-item7 {
   background-image: url('..//assets/body-paintingpng.png');
+  width: 100%;
+  max-width: 200px;
+  min-width: 100px;
 }
 
 /* Card Styles */
@@ -270,7 +299,6 @@ input[type="button"]:focus {
 }
 
 .top-signup {
-  margin: 1rem 0;
   padding: 1rem 2rem 4rem 2rem;
   float: right;
 } 
@@ -349,13 +377,12 @@ img.i-equal{
 
 .logo-bottom{
   float:right;
-  margin: 0 -20% -1rem 0;
+  text-align: right;
 }
 
 /** Categories Section specific styles **/
 
 .categories{
-  margin-top:10rem;
   clear: both;
 }
 
@@ -423,14 +450,111 @@ img.person{
 
 .copy{
   text-align: left;
-  margin: 0 0 1rem -10%;
+  margin-bottom: 1em;
   font-size: .75em;
   float: left;
   clear: both;
-  padding: 0 0 1rem 1rem;
   font-weight: 300;
   color: rgba(255,255,255,0.7);
 }
 
+/** Media Queries **/
 
+/* mobile up to phablet */
+@media (max-width: 549px) {
+  .categories{
+    margin-top: 2rem;
+  }
+  .container {
+    width: 98%;
+    display: inline;
+  }
+
+  .search-input {
+    width: 200px;
+  }
+
+  .intro {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .cat-item1,
+  .cat-item2,
+  .cat-item3,
+  .cat-item4 {
+    width: 150px;
+    height: 150px;
+  }
+}
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  .categories{
+    margin-top: 1rem;
+  }
+  .container {
+    width: 90%;
+  }
+  .cat-item1,
+  .cat-item2,
+  .cat-item3,
+  .cat-item4 {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* Larger than tablet */
+@media (max-width: 749px) {
+  .container {
+    width: 90%;
+  }
+
+  .cat-item1,
+  .cat-item2,
+  .cat-item3,
+  .cat-item4 {
+    width: 150px;
+    height: 150px;
+  }
+
+  }
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .search-input {
+    width: 275px;
+  }
+  .card {
+    width: 30%;
+  }
+  .cat-item1,
+  .cat-item2,
+  .cat-item3,
+  .cat-item4 {
+    width: 175px;
+    height: 175px;
+  }
+  
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .container {
+    width: 80%;
+  }
+  .search-input {
+    width: 400px;
+  }
+
+  .cat-item1,
+  .cat-item2,
+  .cat-item3,
+  .cat-item4 {
+    width: 200px;
+    height: 200px;
+  }
+}
 
