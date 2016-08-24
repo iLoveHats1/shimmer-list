@@ -68,6 +68,7 @@ li.search-input {
 
 .light{
   font-weight: 300;
+  margin: 0 2em;
 }
 
 .title{
@@ -109,7 +110,6 @@ li.search-input {
 .category-list {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
 }
 
 .category-item {
@@ -317,6 +317,12 @@ input[type="button"]:focus {
 
 /* How it Works Section specific Styles */
 
+.how-it-works-list {
+  display: inline-block;
+  margin-top: 2rem;
+
+}
+
 .how-it-works-list.arrows {
   position: relative;
   top: 50px;
@@ -326,59 +332,42 @@ input[type="button"]:focus {
 .arrow-1,
 .arrow-2,
 .arrow-3 {
-  position: absolute;
-  width: 50px;
+  width: 40px;
+  margin-bottom: 15%;
+  margin-left: 5%;
 }
-
-.arrow-1 {
-  left: 22%;
-}
-
-.arrow-2 {
-  left: 47%;
-}
-
-.arrow-3 {
-  left: 73%;
-}
-
 
 .how-it-works-label {
   font-size: 2rem;
-  padding: 2rem;
-  margin: 2rem;
+  margin: 1rem 0 3rem 0;
 }
 
-img.i-equal{
-  margin-bottom: 24px;
+.how-it-works-item {
+  width: 100%;
+  display: block;
 }
 
 
 /** Icon Images for works section ***/
-.icon-heart {
-  text-align: center;
-  width: 70%;
-  padding:3% 3% 7% 3%;
-  margin-left: 1em;
-}
+
 
 .icon-trophy {
-  text-align: center;
-  width: 70%;
-  padding:3% 3% 7% 3%;
+  
 }
 
 .icon-list{
-  text-align: center;
-  width: 70%;
-  padding:3% 3% 7% 3%;
+  
 }
 
 .icon-users{
-  text-align: center;
-  width: 70%;
-  padding:5% 3% 7% 3%;
   margin-right: 1em;
+}
+
+.icon-all {
+  text-align: center;
+  width: 35%;
+  margin-right: 4%;
+  margin-top: 4%;
 }
 
 /****** Logo Styles  ********/
@@ -516,11 +505,6 @@ img.person{
   font-size: 1.25rem;
 }
 
-.icon-heart {
-  width: 60%;
-  padding: 0;
-  margin: 0;
-}
 }
 
 
@@ -586,6 +570,26 @@ img.person{
 
 .card-label-title {
   font-size: 1.75rem;
+}
+
+.icon-all {
+  width: 50%;
+  margin-top: 2em;
+}
+
+.icon-heart {
+  margin-left: 1em;
+}
+
+.how-it-works-list {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+img.i-equal{
+  margin-bottom: 2.5rem;
 }
   
 }
