@@ -60,6 +60,10 @@ li.search-input {
   display: inline-block;
   width:100%;
 }
+
+.container {
+  width: 90%;
+}
 /* Typography styles */
 
 .text-inverse {
@@ -108,8 +112,8 @@ li.search-input {
 /* Card Styles for Categories */
 
 .category-list {
-  display: flex;
-  justify-content: space-between;
+  display: inline-block;
+  width: 80%;
 }
 
 .category-item {
@@ -119,52 +123,39 @@ li.search-input {
   margin: 0 1% 0 0;
 }
 
-.category-item:last-child {
-  margin-right: 0;
-}
-
-
-
 .cat-item1 {
   background-image: url('..//assets/massage-crop.png');
   width: 100%;
-  
 }
 
 .cat-item2 {
   background-image: url('..//assets/beauty-crop.png');
-  width: 100%;
-  
+  width: 100%;  
 }
 
 .cat-item3 {
   background-image: url('..//assets/tattoo-crop.png');
   width: 100%;
-  
 }
 
 .cat-item4 {
   background-image: url('..//assets/fitness-crop.png');
   width: 100%;
-  
 }
 
 .cat-item5 {
   background-image: url('..//assets/piercing-crop.jpg');
   width: 100%;
-  
 }
 
 .cat-item6 {
   background-image: url('..//assets/hand-tat.png');
-  width: 100%;
-  
+  width: 100%;  
 }
 
 .cat-item7 {
   background-image: url('..//assets/body-paintingpng.png');
-  width: 100%;
-  
+  width: 100%;  
 }
 
 /* Card Styles */
@@ -320,13 +311,6 @@ input[type="button"]:focus {
 .how-it-works-list {
   display: inline-block;
   margin-top: 2rem;
-
-}
-
-.how-it-works-list.arrows {
-  position: relative;
-  top: 50px;
-
 }
 
 .arrow-1,
@@ -390,7 +374,6 @@ input[type="button"]:focus {
   margin: 0 5% 5% 5%;
 }
 
-
 img.person{
   border: 4px solid #663366;
   border-radius:50%;
@@ -419,7 +402,6 @@ img.person{
   line-height: 2.5rem;
 }
 
-
 /** Footer Styles **/
 
 .footer{
@@ -427,7 +409,6 @@ img.person{
 }
 
 /*** Bottom Nav ****/
-
 
 .nav-item{
   color: #ffffff;
@@ -444,7 +425,6 @@ img.person{
   font-weight: 300;
   margin-bottom: 3rem;
   font-size: .85em;
-  
 }
 
 /** Copyright style **/
@@ -461,23 +441,12 @@ img.person{
 
 /** Media Queries **/
 
-/* Mobile */
-@media (min-width: 380px) {
-  .container {
-    width: 90%;
-  }
-}
-
 /* mobile up to phablet */
 @media (max-width: 549px) {
   .categories{
     margin-top: 2rem;
   }
-  .container {
-    width: 98%;
-    display: inline;
-  }
-
+  
   .search-input {
     width: 200px;
   }
@@ -494,26 +463,15 @@ img.person{
     height: 150px;
   }
 
-  .category-list1,
-  .category-list2 {
-    width: 100%;
-    margin: 0 auto;
-  }
-
   .card-label-title {
   font-size: 1.25rem;
 }
 
 }
 
-
-
 @media (min-width: 550px) {
   .categories{
     margin-top: 1rem;
-  }
-  .container {
-    width: 90%;
   }
   
   .category-item{
@@ -539,11 +497,7 @@ img.person{
     width: 90%;
   }
 
-  .category-item {
-    width: 150px;
-    height: 150px;
-  }
-
+  
   }
 
 /* Larger than tablet */
@@ -558,6 +512,12 @@ img.person{
   .category-item {
     width: 175px;
     height: 175px;
+  }
+
+  .category-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   }
 
   .title{
