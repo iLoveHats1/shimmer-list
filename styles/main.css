@@ -68,7 +68,7 @@ li.search-input {
 
 .light{
   font-weight: 300;
-  margin: 0 2em;
+  margin: 0 5% 0 5%;
 }
 
 .title{
@@ -349,14 +349,8 @@ input[type="button"]:focus {
 
 
 /** Icon Images for works section ***/
-
-
-.icon-trophy {
-  
-}
-
-.icon-list{
-  
+.icon-heart {
+  margin-top: 0;
 }
 
 .icon-users{
@@ -390,6 +384,11 @@ input[type="button"]:focus {
 
 /***Testimonial section css ***/
     /* image and border */
+
+.testimonial-p {
+  font-weight: 300;
+  margin: 0 5% 5% 5%;
+}
 
 
 img.person{
@@ -574,11 +573,12 @@ img.person{
 
 .icon-all {
   width: 50%;
-  margin-top: 2em;
+  margin-top: 5%;
 }
 
 .icon-heart {
   margin-left: 1em;
+  margin-top: 5%
 }
 
 .how-it-works-list {
