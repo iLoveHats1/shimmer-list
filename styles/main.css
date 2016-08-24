@@ -37,7 +37,7 @@ body {
 }
 
 .header{
-  margin: 1.5rem;
+  margin: 4% 4% 1% 4%;
 }
 
 a {
@@ -120,7 +120,7 @@ li.search-input {
   display: inline-block;
   height:150px;
   width: 150px;
-  margin: 0 1% 0 0;
+  margin: 2%;
 }
 
 .cat-item1 {
@@ -303,7 +303,6 @@ input[type="button"]:focus {
 
 .top-signup {
   padding: 1rem 2rem 4rem 2rem;
-  float: right;
 } 
 
 /* How it Works Section specific Styles */
@@ -352,7 +351,7 @@ input[type="button"]:focus {
 
 
 .top-logo{
-  float: left;
+ 
 }
 
 .logo-bottom{
@@ -440,6 +439,18 @@ img.person{
 }
 
 /** Media Queries **/
+
+@media (min-width: 420px) {
+  .top-signup {
+    float: right;
+    display: inline-block;
+  }
+
+  .top-logo {
+    float: left;
+    display: inline-block;
+  }
+}
 
 /* mobile up to phablet */
 @media (max-width: 549px) {

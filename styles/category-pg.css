@@ -1,15 +1,16 @@
 /** Feauture Business Section Styles **/
 
+  /** Breadcrumbs Styles **/
 .breadcrumb{
-  font-size: 1.5rem;
-  font-weight:600;
-  display: inline-block;
-  float: left;
-  padding: 1rem 3rem 1rem 2rem;
+  font-size: 1em;
+  font-weight:300;
+  float: left;  
+  padding-right: 1em;
+  line-height: 1em;
 }
 
 .trail{
-  margin-top: 10rem;
+  
 }
 
 .breadcrumb-chevron{
