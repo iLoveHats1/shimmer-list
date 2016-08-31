@@ -14,12 +14,11 @@
   width: 100%;
   clear: both;
   float: left;
-  display: flex;
-  justify-content: space-between;
 }
 
 .biz-header-icons {
-  margin: 1%;
+  margin-bottom: 0;
+  padding: 3% 10% 0 10%;
   float: right;
   display: flex;
   justify-content: space-between;
@@ -40,23 +39,39 @@
   font-size: 2rem;
   margin: 3%;
   font-weight: 400;
+  float: left;
+}
+
+/* laptop */
+@media (min-width: 550px) {
+  .biz-header-name {
+    font-size: 2.5rem;
+  }
+
+  .text-n-review {
+  padding-right: 2rem;
+  }
+
+
 }
 
 /* laptop */
 @media (min-width: 750px) {
-  .biz-header-name {
-    float: left;
-    margin: 1%;
-    font-size: 2.5rem;
+  .reviews {
+    font-size: 2rem;
+    font-weight: 300;
+    padding-left: 2rem;
+    line-height: 2;
+    display: inline-block;
   }
+ 
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-  .biz-header-name {
-    float: left;
-    margin: 1%;
-    font-size: 2.5rem;
+  .biz-header {
+    margin: 7% 1%;
+    
   }
 }
 
@@ -68,24 +83,16 @@
 }
 
 .descript-date {
-  padding-left: 2rem;
   float: right;
-  margin-bottom: 1rem;
   line-height: 1.5rem;
+  text-align: right;
+  width: 50%;
 }
 
 .italic {
   font-style: italic;
   text-decoration: underline;
   margin-left: 2px;
-}
-
-.reviews{
-  font-size: 2rem;
-  font-weight: 300;
-  padding-left: 2rem;
-  line-height: 2;
-  display: none;
 }
 
 .no-bottom-pad {
@@ -125,13 +132,12 @@
 /* business image styles */
 
 .biz-image-5 {
-  padding: 5% 10% 10% 10%;
+  padding: 1% 2%;
   background-color: black;
 }
 
 .biz-photo-show {
-  min-height: 100px;
-  max-height: 200px;
+  width: 100%;
 }
 
 .biz-photo-lg {
@@ -165,14 +171,23 @@
   letter-spacing: 1.5px
 }
 
+.reviews {
+  display: none;
+}
 .reviewer {
+  float: left;
+  margin-left: 3%;
+}
+
+.reviewer-img {
   max-width: 75px;
   border: 1px solid black;
+  float: left;
 }
 .member {
-  padding:3rem 0;
+  padding: 3%;
   font-size: .85em;
-  text-align: center;
+  text-align: left;
   float: left;
 }
 
@@ -185,14 +200,34 @@
   text-align:justify;
 }
 
+.review-stars {
+  margin-top: 3%;
+  float: left;
+  width: 100%;
+  line-height: 1.5rem;
+  margin-bottom: 3%;
+}
+
 .review-title {
   line-height: 2rem;
+  margin-bottom: 1%;
   float: right;
+}
+
+.half-review {
+  width: 50%;
+}
+.map {
+  width: 100%;
 }
 
 .biz-contact {
   border: 1px solid rgba(51,51,51,0.65);
-  min-height: 800px;
+  float: right;
+}
+
+.right-list {
+  float: right;
 }
 
 .contact {
