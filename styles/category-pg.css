@@ -17,7 +17,6 @@
   color: #333;
 }
 
-
 .line{
   margin-bottom: 2rem;
   margin-top: 0;
@@ -48,8 +47,9 @@
   font-size: 1.25rem;
   padding-top: 1.5rem;
   text-align: justify;
-  line-height: 3rem;
+  line-height: 2rem;
   letter-spacing:1.25px;
+  margin-bottom: 1em;
 }
 
 .article-biz-info{
@@ -72,9 +72,32 @@
   font-weight: 600;
   padding-top: 1.5rem;
 }
+
+.view-website {
+  padding-left: 1rem;
+}
 .biz-listings{
   float:left;
-  text-align: justify;
+  text-align: left;
+}
+
+.biz-listing-item {
+  width: 100%;
+  margin-bottom: 2rem;
+  clear: both;
+}
+
+@media (min-width: 550px) {
+  .biz-listing-item {
+    padding-right: 3%;
+  }
+
+  .advert-placeholder{
+  float:right;
+  border:1px solid #333;
+  min-height:400px;
+}
+
 }
 
 .listing-biz-name{
@@ -92,15 +115,10 @@
   color: rgba(51,51,51,0.75);
 }
 
-/** Sidebar advert placeholder**/
+/** Sidebar advert placeholder*
 
-.advert-placeholder{
-  float:right;
-  border:2px solid #333;
-  max-width: 200px;
-  min-height:400px;
-}
-
+does not display until 550px
+*/
 /** Become a Feature Business ad **/
 
 .rotate-hover {
