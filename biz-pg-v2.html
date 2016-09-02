@@ -25,22 +25,26 @@
   <!-- Begin Header -->
   <header role="banner" class="header">
     <div class="container">
-      <div class="row">
-        <div class="four columns">
-          <a href="index.html">
-            <img src="assets/shimmer-logo.png" alt = "Shimmer-list logo" class ="top-logo">
-          </a>
-        </div>
-        <div class="four columns">
-          <input type="search" placeholder="Search ..." class="search-input" />
-        </div>
-        <div class="four columns">
-          <a href="#" role="button" class="button top-signup">Sign Up!</a>
-        </div>
+      <div class="row u-full-width">
+        <ul class="u-full-width header-parts">
+          <li class="top-logo">
+            <a href="index.html">
+              <img src="assets/shimmer-logo.png" alt = "Shimmer-list logo" class ="top-logo">
+            </a>
+          </li>
+          <li class="top-signup">
+            <a href="#" role="button" class="button top-signup">Sign Up!</a>
+          </li>
+          <li class="search-input">
+            <input type="search" placeholder="Search ..." class="search-input" /> 
+              <i class="fa-lg fa fa-search">
+              </i>  
+          </li> 
+        </ul> 
       </div>
     </div>
-
   </header>
+  <!-- End Header -->
   <!-- End Header -->
   <!-- Begin Main Page View -->
   <main role="main">
@@ -271,11 +275,13 @@
   <!-- End Main Page view -->
 
   <!-- Start Footer -->
-  <!-- nav links -->
-    <footer role="footer" class="footer">
-      <div class="container">
-        <div class="row links">   
-          <ul class="text-links">
+  
+  <footer role="footer" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <!-- nav links -->
+          <ul class="links">
             <li class="each">
               <a href="#" class="nav-item">Search</a>
             </li>
@@ -295,21 +301,19 @@
               <a href="#" class="nav-item">Help</a>
             </li>
           </ul>
-        </div>
-
-         <!-- footer logo and copyright -->
-        <div class="row">
-          <span class="logo-bottom six columns">
+          <!-- footer logo -->
+          <div class="six columns logo-bottom">
             <a href="index.html">
               <img src="assets/shimmer-logo.png" alt = "Shimmer-list logo">
             </a>
-          </span>
-    
-          <p class="copy six columns">&copy; 2016 Shimmer-list. All rights reserved. </p>
+          </div>
+          <!--copyright info-->
+          <div class="six columns">
+            <p class="copy six columns">&copy; 2016 Shimmer-list. All rights reserved. </p>
+          </div>
         </div>
       </div>
-    </footer>
-    
-  
+    </div>
+  </footer>
   </body>
 </html>

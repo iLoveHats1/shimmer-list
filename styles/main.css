@@ -177,6 +177,8 @@ li.search-input {
 
 .card-link {
   display: block;
+  height: 100%;
+  width: 100%;
 }
 
 .card img {
@@ -414,8 +416,7 @@ img.person{
 }
 
 .each{
-  padding:1rem 2rem 1rem 2rem;
-  margin:1rem 2rem 1rem 2rem;
+  padding: 5%;
   display: inline-block;
 }
 

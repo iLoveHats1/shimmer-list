@@ -24,6 +24,7 @@
 
 /** Feature Business article and info **/
 .feature{
+  width: 100%;
   max-width: 440px;
   max-height: 440px;
   float:left;
